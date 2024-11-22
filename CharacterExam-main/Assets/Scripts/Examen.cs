@@ -28,7 +28,7 @@ public class Examen : MonoBehaviour
     {
         _controller = GetComponent<CharacterController>();
         _camera = Camera.main.transform;
-        _animator = GetComponentInChildren<Animator>();
+        _animator = GetComponent<Animator>();
     }
 
     void Update()
